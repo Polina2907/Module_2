@@ -64,7 +64,7 @@ public class ShoppingCart {
         if (items.size() == 0)
             return "No items.";
         List<String[]> lines = new ArrayList<String[]>();
-        String[] header = {"#","Item","Price","Quan.","Discount","Total"};
+        String[] header = {"#","Item","Price","Quantity","Discount","Total"};
         int[] align = new int[] { 1, -1, 1, 1, 1, 1 };
         // formatting each line
         double total = 0.00;
